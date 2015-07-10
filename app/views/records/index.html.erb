@@ -1,0 +1,12 @@
+<%# app/views/records/index_fluxxor.html.erb %>
+
+<%= javascript_include_tag "records_fluxxor/fluxxor.js", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "records_fluxxor/flux.js", "data-turbolinks-track" => true %>
+
+
+<script>
+	$(document).ready(function() {
+		records = '<%= @records.html_safe %>';
+		loadRecords(records);
+	});
+</script>
