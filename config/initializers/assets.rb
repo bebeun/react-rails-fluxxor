@@ -9,11 +9,7 @@ Rails.application.config.assets.version = '1.0'
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
-Rails.application.config.assets.precompile += %w( records_fluxxor/flux.js)
-Rails.application.config.assets.precompile += %w( records_fluxxor/fluxxor.js )
 
-Rails.application.config.assets.precompile += %w( records/amount_box.js )
-Rails.application.config.assets.precompile += %w( records/record.js )
-Rails.application.config.assets.precompile += %w( records/record_form.js )
-Rails.application.config.assets.precompile += %w( records/records.js )
-Rails.application.config.assets.precompile += %w( records/utils.js )
+Rails.application.config.assets.precompile += %w( records_with_fluxxor/flux.js)
+Rails.application.config.assets.precompile += %w( records_with_fluxxor/fluxxor.js )
+
